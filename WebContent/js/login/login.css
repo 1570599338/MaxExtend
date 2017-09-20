@@ -1,0 +1,157 @@
+@charset "gb2312";
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'microsoft yahei';
+    font-style:normal !important;
+}
+/* body{ margin:0px; padding:0px; background:#7C7C7C; font-family:'Microsoft Yahei'; font-size:14px;}  */
+
+.cb{ clear:both;}
+/*login */
+.fm_user{ height:38px; width:230px; line-height:38px; border:1px solid #CCC; color:#666; background: #FFF  url(../../img/login/user_bg.gif) no-repeat 5px top; padding-left:30px; font-family:'Microsoft Yahei';}
+.fm_user2{ height:38px; width:230px; line-height:38px; border:1px solid #2682BF; color:#666; background: #FFF url(../../img/login/user_bg.gif) no-repeat 5px -38px; padding-left:30px; font-family:'Microsoft Yahei';}
+.fm_user3{ height:38px; width:230px; line-height:38px; border:1px solid #ccc; color:#666; background: #FFF url(../../img/login/user_bg1.gif) no-repeat 5px 0px; padding-left:30px; font-family:'Microsoft Yahei';}
+.fm_pwd{ height:38px; width:230px; line-height:38px; border:1px solid #CCC; color:#333; background: #FFF url(../../img/login/pwd_bg.gif) no-repeat 5px top; padding-left:30px; font-family:'Microsoft Yahei';}
+.fm_pwd2{ height:38px; width:230px; line-height:38px; border:1px solid #2682BF; color:#333; background: #FFF url(../../img/login/pwd_bg.gif) no-repeat 5px -38px; padding-left:30px; font-family:'Microsoft Yahei';}
+.fm_pwd3{ height:38px; width:230px; line-height:38px; border:1px solid #CCC; color:#333; background: #FFF url(../../img/login/pwd_bg1.gif) no-repeat 5px 0px; padding-left:30px; font-family:'Microsoft Yahei';}
+.fm_sub{ height:41px; width:262px; line-height:38px; border:1px solid #CCC; color:#FFF; font-weight:bold; background: #135a3f;  font-family:'Microsoft Yahei';}
+.fm_sub_a{ height:41px; width:262px; line-height:40px; border:1px solid #CCC; color:#FFF;   background: #6AC13F;  font-family:'Microsoft Yahei'; font-size:16px;}
+
+ body{ background:#CCC url(../../img/login/loginBg.jpg) ;} 
+
+.fm_error{ font-size:12px; color:#BF7126;} 
+
+.t_logo{margin-left:80px; margin-top:40px; background:url(../../img/login/logo.png) no-repeat left center; height:50px;background-size:170px 80px ;} 
+/* .login_box{ margin:100px auto 0 ; width:430px; height:300px; overflow:hidden; background:#CCC url(../../img/login/login_bg.gif) left top;} */
+
+.login_box{ 
+	font-style:normal !important;
+	margin:200px auto 0 ; 
+	width:430px; 
+	height:300px; 
+	overflow:hidden; 
+	background:#CCC url(../../img/login/loginBg.jpg) left top;
+} 
+
+.login_row{width:350px; margin:30px 0px 0px 70px;} 
+.login_row_a{width:350px; margin:30px 0px 0px 30px;} 
+.f_row_name{width:230px; padding-left:10px; } 
+.f_row_pwd{width:230px; padding-left:10px; margin-top:10px;} 
+.f_row_sub{width:256px; padding-left:10px; margin-top:20px;} 
+.f_row_err{width:200px; padding-left:10px; margin-top:10px;}
+
+.login_box{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    padding:0 !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.login_box:after{
+    display: block;
+    content:'';
+    height: 10px;
+    margin-top:95px;
+    background-size:20px 26px;
+    background-image:linear-gradient(45deg, #fff 25%, transparent 25%, transparent),
+    linear-gradient(-45deg, #fff 25%, transparent 25%, transparent),
+    linear-gradient(45deg, transparent 75%, #fff 75%),
+    linear-gradient(-45deg, transparent 75%, #fff 75%)
+}
+.login_box .title{
+	
+	font-style:normal;
+	 color:#135a3f;
+    text-align: center;
+    font-size:30px;
+    height: 62px;
+    line-height: 62px;
+    border-bottom:1px dashed #135a3f;
+    position: relative;
+    overflow: hidden;
+    
+    -webkit-animation: fontScale 4s ease 1;
+}
+@-webkit-keyframes fontScale {
+  /*   0%{
+    	font-style:normal;
+        
+        font-size:70px;
+        color:red;
+    }
+    100%{
+    	font-style:normal;
+        display:inline-block;
+        font-size:20px;
+        color:#135a3f;
+    } */
+    0%{
+        display:none;
+        font-size:50px;
+        color:#dbdbdb;
+        font-weight:normal;
+    }
+    100%{
+        display:inline-block;
+        font-size:20px;
+        color:#135a3f;
+        font-weight:bold;
+    }
+}
+
+.login_box .title span:last-child{
+    position: absolute;
+    right:80px;
+    font-size:20px;
+    font-weight:bold; 
+}
+
+.login_box .title .login-img{
+    width: 50px;
+    height: 24px;
+    background: url(../../img/login/login_car.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top:22px;
+    left:88px;
+    -webkit-animation: move 2s ease 1;
+    -o-animation: move 2s ease 1;
+
+    -webkit-animation-name:move;
+    -webkit-animation-duration:2s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:ease;
+
+    -moz-animation-name:move;
+    -moz-animation-duration:2s;
+    -moz-animation-iteration-count:1;
+    -moz-animation-timing-function:ease;
+
+    -ms-animation-name:move;
+    -ms-animation-duration:2s;
+    -ms-animation-iteration-count:1;
+    -ms-animation-timing-function:ease;
+
+    animation-name:move;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    animation-timing-function:ease;
+}
+
+@-webkit-keyframes move{
+    0%{
+        left:400px;
+    }
+    100%{
+        left:88px;
+    }
+}
