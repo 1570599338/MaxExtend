@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family:"微软雅黑",Georgia, "Times New Roman", Times, serif;
+	margin:0 auto;	
+}
+
+.detail_content .ctxx .title {
+	text-align: center;
+	font-size: 23px;
+	padding: 5px 0;
+}
+.detail_content .ctxx .time {
+	text-align: center;
+	font-size: 12px;
+	border-bottom:1px dotted #ccc;
+}
+.detail_content .ctxx .brief{
+	font-size:12px;
+	border-bottom:1px dotted #ccc;
+	padding:8px 2px;
+}
+.detail_content .ctxx .brief span{
+	color:#00aa98;
+}
+.detail_content .ctxx .detail_p{
+	font-size:14px;
+	overflow:hidden;
+}
+.detail_content .ctxx .detail_p p{
+	border-bottom:none;
+	margin:5px 0;
+	padding:0;
+	line-height:25px;
+}
+.detail_content .ctxx .detail_p img{
+	border:0;
+	display:block;
+	margin:0 auto;
+}

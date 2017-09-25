@@ -1,0 +1,164 @@
+/*
+Template Name: PhotoTeam
+File: Gallery CSS
+Author: OS Templates
+Author URI: #
+Licence: <a href="#">Website Template Licence</a>
+*/
+*{
+	margin:0;
+	padding:0;
+	word-wrap: break-word;
+	font-family:"微软雅黑",Georgia, "Times New Roman", Times, serif;
+}
+ul#topnav ul{
+	z-index:9999;
+	position:absolute;
+	left:-999em;
+	height:auto;
+	width:110px;
+	}
+body{
+	background-color:#fcf6ee;
+}
+ul,li{list-style:none;}
+
+.clear{
+	clear:both;
+}
+image{
+	border:0;
+}
+
+#search_form{
+	width:960px;
+	margin:0px auto;
+	padding:3px;
+}
+
+/* #search_form h1 {
+    color: #222f50;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight:400;
+} */
+ #search_form input[type="text"]{
+   /* // padding: 9px 40px 9px 5px; */
+    font-size: 0.85em;
+   /*  margin: 10px 0; */
+    border: 0px solid #999;
+    color: #000;
+    background-color:#fff;
+    outline: none;
+    font-weight: 300;
+} 
+/* #search_form label {
+    position: relative;
+    z-index: 1;
+} */
+.btn2{
+	cursor: pointer;
+    padding: 8px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 0.85em;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    font-weight: 300;
+    margin: 0px;
+    vertical-align: baseline;
+}
+.btn-2{
+	background:#00aa98;
+	color: #fff;
+}
+.btn2-1b:after {
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background:#f15f43;
+	color:#fff;
+	 border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.btn2:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn2-1b:hover:after, .btn2-1b:active:after {
+	height: 100%;
+	color:#fff;
+}
+#search_form input[type="submit"] {
+    -webkit-appearance: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#gallery{
+	display:block;
+	width:960px;
+	min-height:521px;
+	margin:0 auto 20px;
+	padding:20px 0;
+	}
+
+#gallery ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#gallery li{
+	display:block;
+	float:left;	
+	margin:0 20px 20px 0;
+	padding:3px;
+	text-align:center;
+	}
+
+#gallery li img{
+	display:block;
+	width:130px;
+	height:160px;
+	margin:0;
+	padding:0;
+	
+	}
+
+#gallery li:hover img{
+	border-color:#00aa98;
+	}
+
+#gallery li.last{
+	margin-right:0;
+	}
+
+a{
+	color:#333;
+	text-decoration:none;
+}
+a:hover{	
+	color:#00aa98;
+}
+.footer{
+	width:100%;
+	background-color:#1C1C1C;
+}

@@ -475,9 +475,4 @@ public class UploadController {
 		return new ModelAndView("redirect:/upload/uploadFile");
 	}	
 	
-	
-	
-	
-	
-	
 }
